@@ -16,6 +16,9 @@ docker buildx build \
 To utworzyło manifest który ma deklaracje dla dwóch platform. Potwierdzenie że manifest zawiera deklracje dla obu platform uzyskano poleceniem inspect, a konkretnie:
 docker buildx imagetools inspect s99656/apkapogodowaplus:multiarch
 „Inspekcja” przeszła pomyślnie bo znalazł się tam zapis zarówno o linux/amd64 jak i o linux/arm64
+
+![image](https://github.com/user-attachments/assets/4cb6c3cd-2ae4-4e82-ba53-ff450eb6b01d)
+
  
 Etap 2 - cache budowania z registry
 Obraz został zbudowany ponownie z wykorzystaniem cache:
@@ -34,3 +37,4 @@ Potwierdzenie działania cache
 W trakcie budowania w logach pojawiły się zapisy zawierające słowo „CACHED” czyli polecenie zadziałało poprawnie
 Obraz cashe zapisał się jako: s99656/apkapogodowaplus:buildcache
  
+![image](https://github.com/user-attachments/assets/64bd0ed0-c0cb-4ced-9a31-24b68e59f0c9)
