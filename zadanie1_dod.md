@@ -38,3 +38,7 @@ W trakcie budowania w logach pojawiły się zapisy zawierające słowo „CACHED
 Obraz cashe zapisał się jako: s99656/apkapogodowaplus:buildcache
  
 ![image](https://github.com/user-attachments/assets/64bd0ed0-c0cb-4ced-9a31-24b68e59f0c9)
+
+-----------------------------------------
+Przetestowano za pomocą Trivy
+![image](https://github.com/user-attachments/assets/a52d94ef-28e0-4b3e-a967-c0ee264ad235)
